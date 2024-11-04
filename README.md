@@ -30,20 +30,17 @@
    git clone https://github.com/yourusername/youbike-query-app.git
 
 ## 進入專案目錄：
-
-   ```bash
+  
    cd youbike-query-app
 
 ## 安裝依賴
 
-   ```bash
    npm install
 
 ## 運行應用
 
    在專案目錄中，運行以下命令以啟動應用程序：
 
-   ```bash
    npm start
 
 這將啟動開發伺服器，您可以在瀏覽器中訪問 http://localhost:3000 查看應用程序。
