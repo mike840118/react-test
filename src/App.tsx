@@ -138,7 +138,7 @@ const App: React.FC = () => {
   ];
   return (
     <div style={{ padding: 24 }}>
-      <h2>查詢頁面</h2>
+      <h2>YouBike 查詢應用</h2>
       <Form form={form} layout="inline" style={{ marginBottom: 16 }}>
         <Form.Item name="name" label="站點名稱">
           <Input placeholder="輸入站點名稱" />
