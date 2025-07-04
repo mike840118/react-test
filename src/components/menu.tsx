@@ -33,7 +33,7 @@ const MenuComponent: React.FC = () => {
   return (
     <Menu
       onClick={handleClick}
-      style={{ width: 240, height: "100vh" }}
+      style={{ width: 240, height: "100vh" ,position:"relative"}}
       defaultOpenKeys={["sub1"]}
       selectedKeys={[current]}
       mode="inline"
