@@ -26,7 +26,7 @@
 
 ## 進入專案目錄：
 
-cd Mike-react
+cd react-test
 
 ## 安裝依賴
 
