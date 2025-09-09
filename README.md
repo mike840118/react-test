@@ -9,7 +9,6 @@
 - [安裝](#安裝)
 - [運行應用](#運行應用)
 
-
 ## 技術
 
 - React
@@ -20,22 +19,23 @@
 ## 安裝
 
 1. 確保已安裝 Node.js 和 npm。
-2. 下載或clone此存儲庫：
+2. 下載或 clone 此存儲庫：
    ```bash
-   git clone https://github.com/yourusername/youbike-query-app.git
+   git clone https://github.com/mike840118/react-test.git
+   ```
 
 ## 進入專案目錄：
-  
-   cd youbike-query-app
+
+cd Mike-react
 
 ## 安裝依賴
 
-   npm install
+npm install
 
 ## 運行應用
 
-   在專案目錄中，運行以下命令以啟動應用程序：
+在專案目錄中，運行以下命令以啟動應用程序：
 
-   npm start
+npm start
 
 這將啟動開發伺服器，您可以在瀏覽器中訪問 http://localhost:3000 查看應用程序。
