@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Menu } from "antd";
+import { Link } from "react-router-dom";
 import menuData from "./menu.json";
 
 const { SubMenu, ItemGroup, Item } = Menu;
 
 const MenuComponent: React.FC = () => {
   const [current, setCurrent] = useState<string>("1");
-
   const handleClick = (e: any) => {
     console.log("click ", e);
     setCurrent(e.key);
@@ -27,13 +27,18 @@ const MenuComponent: React.FC = () => {
           </SubMenu>
         );
       }
-      return <Item key={item.key}>{item.title}</Item>;
+
+      return (
+        <Item key={item.key}>
+          {item.path ? <Link to={item.path}>{item.title}</Link> : item.title}
+        </Item>
+      );
     });
 
   return (
     <Menu
       onClick={handleClick}
-      style={{ width: 240, height: "100vh" ,position:"relative"}}
+      style={{ width: 240, height: "100vh", position: "relative" }}
       defaultOpenKeys={["sub1"]}
       selectedKeys={[current]}
       mode="inline"
